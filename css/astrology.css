@@ -1,0 +1,232 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+    
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+body {
+    background-color: black;
+}
+.hero {
+    /* sizing */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* text styles */
+    text-align: center;
+    
+    /* background styles */
+    height: 1000px;
+    background: linear-gradient(90deg, black, black, black);
+    background-image: url('../images/solar.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.hero h1 {
+    /* font styles */
+    font-size: 5em;
+    color: white;
+    
+    /* margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    
+}
+
+.hero .btn {
+    /* position and size */
+    display: block;
+    width: 200px;
+    
+    /* padding and margin */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    
+    /* border styles */
+    border: 3px solid white;
+    border-radius: 20px; 
+    
+}
+
+.about {
+    text-align: left;
+}
+
+.about .button {  
+    /* position and size */
+    display: block;
+    width: 200px;
+    
+    /* padding and margin */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    
+    /* border styles */
+    border: 3px solid white;
+    border-radius: 20px; 
+}
+
+.center {
+/* display and margin */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.column {
+/* padding and margin */
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+b {
+    /* text color */
+    color:  #6495ED;
+}
+
+p b {
+    /* text color */
+    color: #89cff0;
+}
+
+ul b {
+    /* text color */
+    color: #89cff0;
+}
+h1 {
+    /* text styles */
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    color: #f2e448;
+}
+
+h2 {
+    /* text styles */
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    
+}
+
+h3 {
+    /* text styles */
+    font-family: 'Kanit' sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+h5 {
+    /* text styles */
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #f2e448;
+}
+
+p {
+    /* text styles */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.card {
+    /* card background styles */
+    border: 0;
+    background-color: transparent;
+}
+ul {
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron {
+    background-color:#6495ED;
+}
+
+.jumbotron .btn {
+     /* position and size */
+    display: block;
+    width: 150px;
+    
+    /* padding and margin */
+    padding: 1em;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* text styles */
+    color: #f2e448;
+    text-decoration: none;
+    font-size: 1em;
+    background-color: black;
+    
+    /* border styles */
+    border: 3px solid #6495ED;
+    border-radius: 20px; 
+}
+
+.footer {
+    /* background styles */
+    background-color: black;
+    color: white;
+    
+}
+
+footer .btn {
+ /* position and size */
+    display: block;
+    width: 150px;
+    
+    /* padding and margin */
+    padding: 1em;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    
+    /* border styles */
+    border: 3px solid white;
+    border-radius: 20px; 
+}
+

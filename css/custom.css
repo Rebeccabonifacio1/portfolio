@@ -1,0 +1,351 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+/* all site css */
+body {
+    background-color: black;
+}
+
+
+h1 {
+    color: #cbedf9;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    
+}
+
+h2 {
+    color: #ddcdba;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+ h4, h6 {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+h3 {
+    color: #cbedf9;
+    font-family: 'cabin', sans-serif;
+    font-size: 20px;
+}
+
+h5 {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 17px;
+}
+
+p {
+    color: white;
+    font-family: 'Lora', serif;
+    
+}
+
+a {
+    color: #cbedf9;
+}
+
+
+a:hover {
+    color: #ddcdba;
+}
+
+.hero {
+    /* sizing */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* text styles */
+    text-align: center;
+    
+    /* background styles */
+    height: 500px;
+    background-color: #cbedf9;
+    background-image: url('../images/header2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero .btn {
+    /* sizing */
+    display: block;
+    width: 200px;
+    padding: 1em;
+    
+    /* margins */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto; 
+    margin-right: auto;
+   
+    /* text styles */
+    color: #cbedf9;
+    text-decoration: none;
+    font-size: 1em;
+    background-color: black;
+    
+    /* border styles */
+    border: 4px solid black;
+    border-radius: 20px;
+    
+}
+
+.hero .btn:hover {
+    /* colors */
+    color: black; 
+    background-color: transparent;
+    
+    /* borders */
+    border: 4px solid black;
+    border-radius: 20px;
+}
+.hero h1 {
+    /* font styles */
+    font-size: 8em;
+    color: black;
+    
+    /* margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero h2 {
+    /* font styles */
+    font-size: 4em;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    
+    /* margins */
+    margin-top: 3;
+    margin-bottom: 0.1em;
+    
+}
+
+/* index css */
+
+.home .hero {
+  /* sizing */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* text styles */
+    text-align: center;
+    
+    /* background styles */
+    height: 500px;
+    background-color: #cbedf9;
+    background-image: url('../images/WELCOME.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
+
+.card {
+    /* card background styles */
+    border: 0;
+    background-color: transparent;
+}
+
+.card-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.btn {
+    /* sizing */
+    display: block;
+    width: 200px;
+    padding: 1em;
+    
+    /* margins */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* colors and font styles */
+    color: #cbedf9;
+    text-decoration: none;
+    font-size: 1.1em;
+    background-color: transparent;
+    font-family: 'Open Sans Condensed', serif;
+    
+    /* border styles */
+    border: 4px solid white;
+    border-radius: 30px; 
+   
+    
+}
+
+.btn:hover {
+    color: black;
+    background-color: #cbedf9;
+    border-radius: transparent;
+    border: 4px solid black;
+}
+
+/* about me css */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+
+/* web design css */
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+    height: 100%;
+    width: auto;
+}
+
+.carousel-item {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.carousel {
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    border: none;
+}
+ 
+.card-img-top {
+    height: 300px;
+    width: 300px;
+    
+}
+
+.col-md-12 {
+    text-align: center;
+}
+
+/* p5js css */
+
+.style {
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* socials css */
+
+.ambassadors .card-img-top {
+    width: 100%;
+    height: 43vw;
+    object-fit: cover;
+}
+
+.cleod9 .card-img-top {
+    width: 100%;
+    height: 43vw; 
+    object-fit: cover;
+}
+
+.wxjm .card-img-top {
+    width: 100%;
+    height: 43vw;
+    object-fit: cover;
+}
+.isat .card-img-top {
+    width: 100%;
+    height: 43vw;
+    object-fit: cover;
+}
+
+
+/* graphic design css */
+
+.merchandise .card-img-top {
+    width: 48vh;
+    height: 22vw;
+    object-fit: cover;
+}
+
+.illustration .card-img-top {
+    width: 50vh;
+    height: 35vw;
+    object-fit: cover;
+}
+
+/* photography css */
+
+.gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    }
+
+b {
+    color: #ddcdba;
+}
+.gallery .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .gallery .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    @media screen and (max-width: 600px) {
+        .gallery .column {
+            flex: 100%;
+            max-width: 100%; 
+        }
+    
+/* footer css */
+
+ .footer {
+     background-color: #cbedf9;
+        }
+
+.footer .btn {
+    color: black;
+            
+        }
+.mb-1 {
+   color: black;
+}
+
+/* end css */
